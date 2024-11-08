@@ -5,8 +5,6 @@ import com.sunbelt.backclient.dto.response.ClienteResponseDTO;
 
 public interface IClienteService {
 
-    ClienteResponseDTO consultar(ClienteRequestDTO clienteRequestDTO);
-
-
+    ClienteResponseDTO consultar(ClienteRequestDTO clienteResponseDTO);
 
 }
