@@ -5,7 +5,6 @@ import com.sunbelt.backclient.dto.response.ClienteResponseDTO;
 import com.sunbelt.backclient.service.IClienteService;
 import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

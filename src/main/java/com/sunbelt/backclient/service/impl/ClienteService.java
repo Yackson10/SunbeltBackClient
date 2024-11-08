@@ -79,7 +79,9 @@ public class ClienteService implements IClienteService {
             log.error(ResponseMessages.TIPO_DOCUMENTO_INVALIDO.getMessage());
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, ResponseMessages.TIPO_DOCUMENTO_INVALIDO.getMessage());
         }
+
     }
 }
+
 
 
